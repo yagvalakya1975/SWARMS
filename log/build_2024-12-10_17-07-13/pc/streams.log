@@ -1,0 +1,49 @@
+[19.530s] Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/pc': PYTHONPATH=/home/duck/Downloads/robo/build/pc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pc build --build-base /home/duck/Downloads/robo/build/pc/build install --record /home/duck/Downloads/robo/build/pc/install.log --single-version-externally-managed install_data
+[23.133s] running egg_info
+[23.133s] creating ../../../build/pc/pc.egg-info
+[23.158s] writing ../../../build/pc/pc.egg-info/PKG-INFO
+[23.312s] writing dependency_links to ../../../build/pc/pc.egg-info/dependency_links.txt
+[23.316s] writing entry points to ../../../build/pc/pc.egg-info/entry_points.txt
+[23.316s] writing requirements to ../../../build/pc/pc.egg-info/requires.txt
+[23.354s] writing top-level names to ../../../build/pc/pc.egg-info/top_level.txt
+[23.354s] writing manifest file '../../../build/pc/pc.egg-info/SOURCES.txt'
+[23.356s] reading manifest file '../../../build/pc/pc.egg-info/SOURCES.txt'
+[23.356s] writing manifest file '../../../build/pc/pc.egg-info/SOURCES.txt'
+[23.504s] running build
+[23.509s] running build_py
+[23.510s] creating /home/duck/Downloads/robo/build/pc/build
+[23.510s] creating /home/duck/Downloads/robo/build/pc/build/lib
+[23.511s] creating /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.512s] copying pc/match.py -> /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.512s] copying pc/list1.py -> /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.512s] copying pc/point_net1.py -> /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.512s] copying pc/__init__.py -> /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.555s] copying pc/Final1.py -> /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.558s] copying pc/pointnet_model.py -> /home/duck/Downloads/robo/build/pc/build/lib/pc
+[23.559s] running install
+[23.559s] running install_lib
+[23.559s] creating /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.559s] copying /home/duck/Downloads/robo/build/pc/build/lib/pc/match.py -> /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.559s] copying /home/duck/Downloads/robo/build/pc/build/lib/pc/list1.py -> /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.559s] copying /home/duck/Downloads/robo/build/pc/build/lib/pc/point_net1.py -> /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.559s] copying /home/duck/Downloads/robo/build/pc/build/lib/pc/__init__.py -> /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.560s] copying /home/duck/Downloads/robo/build/pc/build/lib/pc/Final1.py -> /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.589s] copying /home/duck/Downloads/robo/build/pc/build/lib/pc/pointnet_model.py -> /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc
+[23.628s] byte-compiling /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc/match.py to match.cpython-310.pyc
+[23.698s] byte-compiling /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc/list1.py to list1.cpython-310.pyc
+[23.707s] byte-compiling /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc/point_net1.py to point_net1.cpython-310.pyc
+[23.805s] byte-compiling /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc/__init__.py to __init__.cpython-310.pyc
+[23.818s] byte-compiling /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc/Final1.py to Final1.cpython-310.pyc
+[23.962s] byte-compiling /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc/pointnet_model.py to pointnet_model.cpython-310.pyc
+[23.971s] running install_data
+[23.971s] creating /home/duck/Downloads/robo/install/pc/share/ament_index
+[23.972s] creating /home/duck/Downloads/robo/install/pc/share/ament_index/resource_index
+[23.973s] creating /home/duck/Downloads/robo/install/pc/share/ament_index/resource_index/packages
+[23.973s] copying resource/pc -> /home/duck/Downloads/robo/install/pc/share/ament_index/resource_index/packages
+[23.974s] copying package.xml -> /home/duck/Downloads/robo/install/pc/share/pc
+[23.996s] running install_egg_info
+[24.020s] Copying ../../../build/pc/pc.egg-info to /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc-0.0.0-py3.10.egg-info
+[24.066s] running install_scripts
+[24.334s] Installing map_launch script to /home/duck/Downloads/robo/install/pc/lib/pc
+[24.394s] writing list of installed files to '/home/duck/Downloads/robo/build/pc/install.log'
+[25.296s] Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/pc' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/pc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pc build --build-base /home/duck/Downloads/robo/build/pc/build install --record /home/duck/Downloads/robo/build/pc/install.log --single-version-externally-managed install_data

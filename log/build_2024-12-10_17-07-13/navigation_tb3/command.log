@@ -1,0 +1,6 @@
+Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/navigation_tb3
+Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/navigation_tb3
+Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/navigation_tb3 -- -j4 -l4
+Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/navigation_tb3 -- -j4 -l4
+Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/navigation_tb3
+Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/navigation_tb3

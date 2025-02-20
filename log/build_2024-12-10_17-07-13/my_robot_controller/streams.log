@@ -1,0 +1,79 @@
+[19.970s] Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller': PYTHONPATH=/home/duck/Downloads/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/duck/Downloads/robo/build/my_robot_controller/build install --record /home/duck/Downloads/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[22.723s] running egg_info
+[22.727s] creating ../../../build/my_robot_controller/my_robot_controller.egg-info
+[22.732s] writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[22.733s] writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[22.733s] writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[22.733s] writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[22.733s] writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[22.805s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[22.842s] reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[22.842s] adding license file 'LICENSE'
+[22.842s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[22.842s] running build
+[22.843s] running build_py
+[22.843s] creating /home/duck/Downloads/robo/build/my_robot_controller/build
+[22.843s] creating /home/duck/Downloads/robo/build/my_robot_controller/build/lib
+[22.843s] creating /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.843s] copying my_robot_controller/keras_ddpg.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.843s] copying my_robot_controller/q_learning.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.843s] copying my_robot_controller/GazeboEnv (copy).py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.846s] copying my_robot_controller/DDPG.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.867s] copying my_robot_controller/simplified_q.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.907s] copying my_robot_controller/GazeboEnv.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.915s] copying my_robot_controller/Utils.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.950s] copying my_robot_controller/ddpg.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.954s] copying my_robot_controller/updated_keras_ddpg.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[22.959s] copying my_robot_controller/__init__.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[23.003s] copying my_robot_controller/_Utils.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[23.004s] copying my_robot_controller/common_definitions.py -> /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller
+[23.012s] running install
+[23.059s] running install_lib
+[23.059s] creating /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.059s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/keras_ddpg.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.066s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/q_learning.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.066s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/GazeboEnv (copy).py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.066s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/DDPG.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.066s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/simplified_q.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.067s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/GazeboEnv.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.067s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/Utils.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.067s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/ddpg.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.067s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/updated_keras_ddpg.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.067s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.100s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/_Utils.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.179s] copying /home/duck/Downloads/robo/build/my_robot_controller/build/lib/my_robot_controller/common_definitions.py -> /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[23.180s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/keras_ddpg.py to keras_ddpg.cpython-310.pyc
+[23.181s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/q_learning.py to q_learning.cpython-310.pyc
+[23.219s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/GazeboEnv (copy).py to GazeboEnv (copy).cpython-310.pyc
+[23.291s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/DDPG.py to DDPG.cpython-310.pyc
+[23.730s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/simplified_q.py to simplified_q.cpython-310.pyc
+[23.933s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/GazeboEnv.py to GazeboEnv.cpython-310.pyc
+[23.964s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/Utils.py to Utils.cpython-310.pyc
+[23.964s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ddpg.py to ddpg.cpython-310.pyc
+[23.964s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/updated_keras_ddpg.py to updated_keras_ddpg.cpython-310.pyc
+[23.964s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[23.965s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/_Utils.py to _Utils.cpython-310.pyc
+[23.971s] byte-compiling /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/common_definitions.py to common_definitions.cpython-310.pyc
+[23.971s] running install_data
+[23.971s] creating /home/duck/Downloads/robo/install/my_robot_controller/share/ament_index
+[23.971s] creating /home/duck/Downloads/robo/install/my_robot_controller/share/ament_index/resource_index
+[23.971s] creating /home/duck/Downloads/robo/install/my_robot_controller/share/ament_index/resource_index/packages
+[23.971s] copying resource/my_robot_controller -> /home/duck/Downloads/robo/install/my_robot_controller/share/ament_index/resource_index/packages
+[23.971s] copying package.xml -> /home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller
+[23.971s] running install_egg_info
+[24.073s] Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[24.074s] running install_scripts
+[24.478s] Installing DDPG script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.480s] Installing common_def script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.490s] Installing ddpg script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.515s] Installing draw_circle script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.534s] Installing number_count script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.537s] Installing number_publish script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.563s] Installing pose_publish script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.583s] Installing pose_subscribe script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.584s] Installing q_learning script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.590s] Installing reset_count script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.590s] Installing test_node script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.590s] Installing updated_keras_ddpg script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[24.590s] writing list of installed files to '/home/duck/Downloads/robo/build/my_robot_controller/install.log'
+[25.169s] Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/duck/Downloads/robo/build/my_robot_controller/build install --record /home/duck/Downloads/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data

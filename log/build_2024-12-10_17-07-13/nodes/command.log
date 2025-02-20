@@ -1,0 +1,6 @@
+Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/nodes -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/nodes
+Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/nodes -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/nodes
+Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes
+Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes

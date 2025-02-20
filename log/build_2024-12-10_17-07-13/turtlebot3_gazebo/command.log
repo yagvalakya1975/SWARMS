@@ -1,0 +1,6 @@
+Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/turtlebot3_gazebo
+Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/turtlebot3_gazebo
+Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/turtlebot3_gazebo -- -j4 -l4
+Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/turtlebot3_gazebo -- -j4 -l4
+Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/turtlebot3_gazebo
+Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/turtlebot3_gazebo

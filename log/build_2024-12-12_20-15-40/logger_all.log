@@ -1,0 +1,653 @@
+[1.996s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.996s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c873a54f160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c873a54e2c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c873a54e2c0>>, mixin_verb=('build',))
+[3.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.403s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duck/Downloads/robo'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['ignore', 'ignore_ament_install']
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'ignore'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'ignore_ament_install'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['colcon_pkg']
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'colcon_pkg'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['colcon_meta']
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'colcon_meta'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['ros']
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'ros'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['cmake', 'python']
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'cmake'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'python'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extensions ['python_setup_py']
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners) by extension 'python_setup_py'
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extensions ['ignore', 'ignore_ament_install']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'ignore'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'ignore_ament_install'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extensions ['colcon_pkg']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'colcon_pkg'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extensions ['colcon_meta']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'colcon_meta'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extensions ['ros']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'ros'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extensions ['cmake', 'python']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'cmake'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'python'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extensions ['python_setup_py']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/TaskAllocation) by extension 'python_setup_py'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extensions ['ignore', 'ignore_ament_install']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'ignore'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'ignore_ament_install'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extensions ['colcon_pkg']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'colcon_pkg'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extensions ['colcon_meta']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'colcon_meta'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extensions ['ros']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'ros'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extensions ['cmake', 'python']
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'cmake'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'python'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extensions ['python_setup_py']
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm) by extension 'python_setup_py'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extensions ['ignore', 'ignore_ament_install']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'ignore'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'ignore_ament_install'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extensions ['colcon_pkg']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'colcon_pkg'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extensions ['colcon_meta']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'colcon_meta'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extensions ['ros']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'ros'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extensions ['cmake', 'python']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'cmake'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'python'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extensions ['python_setup_py']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/logs) by extension 'python_setup_py'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'ignore'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'ignore_ament_install'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extensions ['colcon_pkg']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'colcon_pkg'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extensions ['colcon_meta']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'colcon_meta'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extensions ['ros']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'ros'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extensions ['cmake', 'python']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'cmake'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'python'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extensions ['python_setup_py']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/llm/scripts) by extension 'python_setup_py'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extensions ['ignore', 'ignore_ament_install']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'ignore'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'ignore_ament_install'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extensions ['colcon_pkg']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'colcon_pkg'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extensions ['colcon_meta']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'colcon_meta'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extensions ['ros']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'ros'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extensions ['cmake', 'python']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'cmake'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'python'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extensions ['python_setup_py']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/logs) by extension 'python_setup_py'
+[3.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extension 'ignore'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extension 'ignore_ament_install'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extensions ['colcon_pkg']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extension 'colcon_pkg'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extensions ['colcon_meta']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extension 'colcon_meta'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extensions ['ros']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/my_robot_controller) by extension 'ros'
+[3.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['ignore', 'ignore_ament_install']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'ignore'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'ignore_ament_install'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['colcon_pkg']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'colcon_pkg'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['colcon_meta']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'colcon_meta'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extensions ['ros']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/navigation_tb3) by extension 'ros'
+[3.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/navigation_tb3' with type 'ros.ament_cmake' and name 'navigation_tb3'
+[3.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['ignore', 'ignore_ament_install']
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'ignore'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'ignore_ament_install'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['colcon_pkg']
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'colcon_pkg'
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['colcon_meta']
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'colcon_meta'
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extensions ['ros']
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/nodes) by extension 'ros'
+[3.501s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/nodes' with type 'ros.ament_cmake' and name 'nodes'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extensions ['ignore', 'ignore_ament_install']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extension 'ignore'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extension 'ignore_ament_install'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extensions ['colcon_pkg']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extension 'colcon_pkg'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extensions ['colcon_meta']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extension 'colcon_meta'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extensions ['ros']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/pc) by extension 'ros'
+[3.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/pc' with type 'ros.ament_python' and name 'pc'
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['ignore', 'ignore_ament_install']
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'ignore'
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'ignore_ament_install'
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['colcon_pkg']
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'colcon_pkg'
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['colcon_meta']
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'colcon_meta'
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extensions ['ros']
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/point_cloud_perception) by extension 'ros'
+[3.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/point_cloud_perception' with type 'ros.ament_cmake' and name 'point_cloud_perception'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['ignore', 'ignore_ament_install']
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'ignore'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'ignore_ament_install'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['colcon_pkg']
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'colcon_pkg'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['colcon_meta']
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'colcon_meta'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['ros']
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'ros'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['cmake', 'python']
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'cmake'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'python'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extensions ['python_setup_py']
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/resources) by extension 'python_setup_py'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['ignore', 'ignore_ament_install']
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'ignore'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'ignore_ament_install'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['colcon_pkg']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'colcon_pkg'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['colcon_meta']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'colcon_meta'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extensions ['ros']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/robot_math) by extension 'ros'
+[3.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/robot_math' with type 'ros.ament_python' and name 'robot_math'
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extensions ['ignore', 'ignore_ament_install']
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extension 'ignore'
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extension 'ignore_ament_install'
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extensions ['colcon_pkg']
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extension 'colcon_pkg'
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extensions ['colcon_meta']
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extension 'colcon_meta'
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extensions ['ros']
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/transforms) by extension 'ros'
+[3.527s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/transforms' with type 'ros.ament_cmake' and name 'transforms'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'ignore'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'colcon_pkg'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['colcon_meta']
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'colcon_meta'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extensions ['ros']
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_learners/turtlebot3_gazebo) by extension 'ros'
+[3.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_learners/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[3.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.738s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[3.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.826s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlebot3_gazebo' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlebot3_gazebo
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.828s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.828s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/my_robot_controller', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_args' from command line to 'None'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target' from command line to 'None'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_cache' from command line to 'False'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_first' from command line to 'False'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_force_configure' from command line to 'False'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'ament_cmake_args' from command line to 'None'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_cmake_args' from command line to 'None'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.829s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_tb3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/navigation_tb3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/navigation_tb3', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/navigation_tb3', 'symlink_install': False, 'test_result_base': None}
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_args' from command line to 'None'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target' from command line to 'None'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_clean_first' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'cmake_force_configure' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'ament_cmake_args' from command line to 'None'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.830s] DEBUG:colcon.colcon_core.verb:Building package 'nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/nodes', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/nodes', 'symlink_install': False, 'test_result_base': None}
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'cmake_args' from command line to 'None'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'cmake_target' from command line to 'None'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'cmake_clean_cache' from command line to 'False'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'cmake_clean_first' from command line to 'False'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'cmake_force_configure' from command line to 'False'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'ament_cmake_args' from command line to 'None'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'catkin_cmake_args' from command line to 'None'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'pc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.831s] DEBUG:colcon.colcon_core.verb:Building package 'pc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/pc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/pc', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/pc', 'symlink_install': False, 'test_result_base': None}
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_args' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_target' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_clean_first' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'cmake_force_configure' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'ament_cmake_args' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.832s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/point_cloud_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/point_cloud_perception', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/point_cloud_perception', 'symlink_install': False, 'test_result_base': None}
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_args' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_target' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_clean_cache' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_clean_first' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'cmake_force_configure' from command line to 'False'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'ament_cmake_args' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'catkin_cmake_args' from command line to 'None'
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'robot_math' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.833s] DEBUG:colcon.colcon_core.verb:Building package 'robot_math' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/robot_math', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/robot_math', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/robot_math', 'symlink_install': False, 'test_result_base': None}
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_args' from command line to 'None'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_target' from command line to 'None'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_clean_cache' from command line to 'False'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_clean_first' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'cmake_force_configure' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'ament_cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'catkin_cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'transforms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.834s] DEBUG:colcon.colcon_core.verb:Building package 'transforms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/transforms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/transforms', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/transforms', 'symlink_install': False, 'test_result_base': None}
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.834s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duck/Downloads/robo/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duck/Downloads/robo/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.835s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.842s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller' with build type 'ament_python'
+[3.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[3.916s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[3.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[3.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[3.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.948s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/navigation_tb3' with build type 'ament_cmake'
+[3.948s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duck/Downloads/robo/src/ros2_learners/navigation_tb3'
+[3.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.967s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/nodes' with build type 'ament_cmake'
+[3.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duck/Downloads/robo/src/ros2_learners/nodes'
+[3.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.006s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/pc' with build type 'ament_python'
+[4.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('pc', 'ament_prefix_path')
+[4.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/pc/share/pc/hook/ament_prefix_path.ps1'
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/pc/share/pc/hook/ament_prefix_path.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/pc/share/pc/hook/ament_prefix_path.sh'
+[4.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.984s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller'
+[4.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/navigation_tb3 -- -j4 -l4
+[5.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+[6.298s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duck/Downloads/robo/src/ros2_learners/pc'
+[6.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+[6.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes
+[6.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[6.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes
+[6.813s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes' for CMake module files
+[6.815s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes' for CMake config files
+[6.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[6.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[6.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[6.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[6.864s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/lib'
+[6.869s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/bin'
+[6.869s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/lib/pkgconfig/nodes.pc'
+[6.869s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/lib/python3.10/site-packages'
+[6.871s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/bin'
+[6.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.ps1'
+[6.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/nodes/share/nodes/package.dsv'
+[6.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.sh'
+[6.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.bash'
+[6.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.zsh'
+[6.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/nodes/share/colcon-core/packages/nodes)
+[6.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nodes)
+[6.946s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes' for CMake module files
+[6.948s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes' for CMake config files
+[6.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodes', 'cmake_prefix_path')
+[6.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/nodes/share/nodes/hook/cmake_prefix_path.ps1'
+[6.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/nodes/share/nodes/hook/cmake_prefix_path.dsv'
+[6.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/nodes/share/nodes/hook/cmake_prefix_path.sh'
+[6.954s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/lib'
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/bin'
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/lib/pkgconfig/nodes.pc'
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/lib/python3.10/site-packages'
+[6.956s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/nodes/bin'
+[6.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.ps1'
+[6.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/nodes/share/nodes/package.dsv'
+[6.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.sh'
+[6.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.bash'
+[6.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/nodes/share/nodes/package.zsh'
+[6.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/nodes/share/colcon-core/packages/nodes)
+[6.969s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/point_cloud_perception' with build type 'ament_cmake'
+[6.970s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duck/Downloads/robo/src/ros2_learners/point_cloud_perception'
+[6.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/point_cloud_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/point_cloud_perception -- -j4 -l4
+[7.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/navigation_tb3 -- -j4 -l4
+[7.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/navigation_tb3
+[7.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[7.553s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3' for CMake module files
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3' for CMake config files
+[7.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/navigation_tb3
+[7.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[7.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[7.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[7.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/lib'
+[7.626s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/bin'
+[7.626s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[7.631s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/lib/python3.10/site-packages'
+[7.636s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/bin'
+[7.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[7.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.sh'
+[7.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.bash'
+[7.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[7.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[7.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[7.663s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3' for CMake module files
+[7.664s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3' for CMake config files
+[7.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[7.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[7.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[7.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[7.670s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/lib'
+[7.670s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/bin'
+[7.670s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[7.671s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/lib/python3.10/site-packages'
+[7.671s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/navigation_tb3/bin'
+[7.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[7.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[7.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.sh'
+[7.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.bash'
+[7.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[7.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[7.683s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/robot_math' with build type 'ament_python'
+[7.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'ament_prefix_path')
+[7.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/robot_math/share/robot_math/hook/ament_prefix_path.ps1'
+[7.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/robot_math/share/robot_math/hook/ament_prefix_path.dsv'
+[7.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/robot_math/share/robot_math/hook/ament_prefix_path.sh'
+[7.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.624s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duck/Downloads/robo/src/ros2_learners/robot_math'
+[8.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller': PYTHONPATH=/home/duck/Downloads/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/duck/Downloads/robo/build/my_robot_controller/build install --record /home/duck/Downloads/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[8.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/pc': PYTHONPATH=/home/duck/Downloads/robo/build/pc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pc build --build-base /home/duck/Downloads/robo/build/pc/build install --record /home/duck/Downloads/robo/build/pc/install.log --single-version-externally-managed install_data
+[8.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/point_cloud_perception -- -j4 -l4
+[8.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/point_cloud_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/point_cloud_perception
+[8.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_perception)
+[8.839s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception' for CMake module files
+[8.840s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception' for CMake config files
+[8.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_perception', 'cmake_prefix_path')
+[8.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.ps1'
+[8.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/point_cloud_perception
+[8.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.dsv'
+[8.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.sh'
+[8.848s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/lib'
+[8.848s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/bin'
+[8.848s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/lib/pkgconfig/point_cloud_perception.pc'
+[8.849s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/lib/python3.10/site-packages'
+[8.849s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/bin'
+[8.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.ps1'
+[8.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.dsv'
+[8.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.sh'
+[8.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.bash'
+[8.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.zsh'
+[8.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/point_cloud_perception/share/colcon-core/packages/point_cloud_perception)
+[8.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_perception)
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception' for CMake module files
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception' for CMake config files
+[8.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_perception', 'cmake_prefix_path')
+[8.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.ps1'
+[8.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.dsv'
+[8.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/hook/cmake_prefix_path.sh'
+[8.887s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/lib'
+[8.887s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/bin'
+[8.888s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/lib/pkgconfig/point_cloud_perception.pc'
+[8.888s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/lib/python3.10/site-packages'
+[8.889s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/point_cloud_perception/bin'
+[8.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.ps1'
+[8.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.dsv'
+[8.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.sh'
+[8.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.bash'
+[8.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.zsh'
+[8.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/point_cloud_perception/share/colcon-core/packages/point_cloud_perception)
+[8.899s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/transforms' with build type 'ament_cmake'
+[8.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duck/Downloads/robo/src/ros2_learners/transforms'
+[8.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.901s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+[9.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+[9.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms
+[9.771s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc' for CMake module files
+[9.772s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc' for CMake config files
+[9.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/pc' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/pc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pc build --build-base /home/duck/Downloads/robo/build/pc/build install --record /home/duck/Downloads/robo/build/pc/install.log --single-version-externally-managed install_data
+[9.776s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc/lib'
+[9.777s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc/bin'
+[9.777s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc/lib/pkgconfig/pc.pc'
+[9.777s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages'
+[9.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('pc', 'pythonpath')
+[9.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/pc/share/pc/hook/pythonpath.ps1'
+[9.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/pc/share/pc/hook/pythonpath.dsv'
+[9.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/pc/share/pc/hook/pythonpath.sh'
+[9.786s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/pc/bin'
+[9.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pc)
+[9.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/pc/share/pc/package.ps1'
+[9.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/pc/share/pc/package.dsv'
+[9.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/pc/share/pc/package.sh'
+[9.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/pc/share/pc/package.bash'
+[9.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/pc/share/pc/package.zsh'
+[9.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/pc/share/colcon-core/packages/pc)
+[9.797s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller' for CMake module files
+[9.802s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller' for CMake config files
+[9.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/duck/Downloads/robo/build/my_robot_controller/build install --record /home/duck/Downloads/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[9.805s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller/lib'
+[9.805s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller/bin'
+[9.805s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[9.806s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages'
+[9.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[9.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[9.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[9.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[9.821s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/my_robot_controller/bin'
+[9.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[9.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[9.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[9.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/package.sh'
+[9.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/package.bash'
+[9.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[9.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[9.972s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo' with build type 'ament_cmake'
+[9.972s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo'
+[9.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/robot_math': PYTHONPATH=/home/duck/Downloads/robo/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_math build --build-base /home/duck/Downloads/robo/build/robot_math/build install --record /home/duck/Downloads/robo/build/robot_math/install.log --single-version-externally-managed install_data
+[10.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/turtlebot3_gazebo -- -j4 -l4
+[10.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(transforms)
+[10.227s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms' for CMake module files
+[10.229s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms' for CMake config files
+[10.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('transforms', 'cmake_prefix_path')
+[10.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/transforms/share/transforms/hook/cmake_prefix_path.ps1'
+[10.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms
+[10.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/transforms/share/transforms/hook/cmake_prefix_path.dsv'
+[10.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/transforms/share/transforms/hook/cmake_prefix_path.sh'
+[10.337s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/lib'
+[10.337s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/bin'
+[10.337s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/lib/pkgconfig/transforms.pc'
+[10.338s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/lib/python3.10/site-packages'
+[10.338s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/bin'
+[10.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.ps1'
+[10.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/transforms/share/transforms/package.dsv'
+[10.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.sh'
+[10.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.bash'
+[10.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.zsh'
+[10.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/transforms/share/colcon-core/packages/transforms)
+[10.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(transforms)
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms' for CMake module files
+[10.434s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms' for CMake config files
+[10.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('transforms', 'cmake_prefix_path')
+[10.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/transforms/share/transforms/hook/cmake_prefix_path.ps1'
+[10.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/transforms/share/transforms/hook/cmake_prefix_path.dsv'
+[10.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/transforms/share/transforms/hook/cmake_prefix_path.sh'
+[10.466s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/lib'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/bin'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/lib/pkgconfig/transforms.pc'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/lib/python3.10/site-packages'
+[10.472s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/transforms/bin'
+[10.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.ps1'
+[10.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/transforms/share/transforms/package.dsv'
+[10.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.sh'
+[10.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.bash'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/transforms/share/transforms/package.zsh'
+[10.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/transforms/share/colcon-core/packages/transforms)
+[11.543s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math' for CMake module files
+[11.545s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math' for CMake config files
+[11.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/robot_math' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_math build --build-base /home/duck/Downloads/robo/build/robot_math/build install --record /home/duck/Downloads/robo/build/robot_math/install.log --single-version-externally-managed install_data
+[11.550s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math/lib'
+[11.551s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math/bin'
+[11.551s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math/lib/pkgconfig/robot_math.pc'
+[11.551s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages'
+[11.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_math', 'pythonpath')
+[11.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/robot_math/share/robot_math/hook/pythonpath.ps1'
+[11.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/robot_math/share/robot_math/hook/pythonpath.dsv'
+[11.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/robot_math/share/robot_math/hook/pythonpath.sh'
+[11.556s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/robot_math/bin'
+[11.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_math)
+[11.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/robot_math/share/robot_math/package.ps1'
+[11.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/robot_math/share/robot_math/package.dsv'
+[11.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/robot_math/share/robot_math/package.sh'
+[11.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/robot_math/share/robot_math/package.bash'
+[11.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/robot_math/share/robot_math/package.zsh'
+[11.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/robot_math/share/colcon-core/packages/robot_math)
+[11.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/turtlebot3_gazebo -- -j4 -l4
+[11.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/turtlebot3_gazebo
+[12.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[12.148s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo' for CMake module files
+[12.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/turtlebot3_gazebo
+[12.150s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo' for CMake config files
+[12.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[12.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[12.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[12.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[12.171s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib'
+[12.171s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/bin'
+[12.172s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[12.172s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[12.173s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/bin'
+[12.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[12.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[12.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[12.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[12.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[12.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[12.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[12.206s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo' for CMake module files
+[12.207s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo' for CMake config files
+[12.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[12.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[12.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[12.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[12.217s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib'
+[12.217s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/bin'
+[12.217s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[12.218s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[12.219s] Level 1:colcon.colcon_core.environment:checking '/home/duck/Downloads/robo/install/turtlebot3_gazebo/bin'
+[12.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[12.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[12.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[12.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[12.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[12.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duck/Downloads/robo/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[12.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.233s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.292s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.393s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duck/Downloads/robo/install/local_setup.ps1'
+[12.402s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duck/Downloads/robo/install/_local_setup_util_ps1.py'
+[12.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duck/Downloads/robo/install/setup.ps1'
+[12.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duck/Downloads/robo/install/local_setup.sh'
+[12.419s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duck/Downloads/robo/install/_local_setup_util_sh.py'
+[12.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duck/Downloads/robo/install/setup.sh'
+[12.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duck/Downloads/robo/install/local_setup.bash'
+[12.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duck/Downloads/robo/install/setup.bash'
+[12.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duck/Downloads/robo/install/local_setup.zsh'
+[12.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duck/Downloads/robo/install/setup.zsh'

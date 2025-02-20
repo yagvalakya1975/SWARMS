@@ -1,0 +1,12 @@
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/uninstall.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/nodes_uninstall.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/pub_node.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/sub_node.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/laser_pub.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/test.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/edit_cache.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/rebuild_cache.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/list_install_components.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/install.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/install/local.dir
+/home/duck/Downloads/robo/build/nodes/CMakeFiles/install/strip.dir

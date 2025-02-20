@@ -1,0 +1,6 @@
+Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/transforms -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/transforms
+Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/transforms -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/transforms
+Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms
+Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms

@@ -1,0 +1,365 @@
+[0.422s] Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/turtlebot3_gazebo
+[1.541s] -- The C compiler identification is GNU 11.4.0
+[2.657s] -- The CXX compiler identification is GNU 11.4.0
+[2.875s] -- Detecting C compiler ABI info
+[3.587s] -- Detecting C compiler ABI info - done
+[3.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.614s] -- Detecting C compile features
+[3.618s] -- Detecting C compile features - done
+[3.634s] -- Detecting CXX compiler ABI info
+[4.141s] -- Detecting CXX compiler ABI info - done
+[4.159s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.161s] -- Detecting CXX compile features
+[4.167s] -- Detecting CXX compile features - done
+[4.229s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.228s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.451s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[7.452s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[7.502s]   does not match the name of the calling package (gazebo).  This can lead to
+[7.539s]   problems in calling code that expects `find_package` result variables
+[7.539s]   (e.g., `_FOUND`) to follow a certain pattern.
+[7.540s] Call Stack (most recent call first):
+[7.548s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[7.549s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[7.549s]   CMakeLists.txt:23 (find_package)
+[7.549s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.550s] [0m
+[7.550s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.801s] -- Checking for module 'bullet>=2.82'
+[8.225s] --   Found bullet, version 3.05
+[10.583s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[11.425s] -- Found assimp: /usr/include (found version "5.2.0") 
+[11.979s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[13.983s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[14.132s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[14.167s] -- Looking for ignition-math6 -- found version 6.15.1
+[14.235s] -- Searching for dependencies of ignition-math6
+[14.266s] -- Looking for OGRE...
+[14.291s] -- OGRE_PREFIX_WATCH changed.
+[14.411s] -- Checking for module 'OGRE'
+[14.544s] --   Found OGRE, version 1.9.0
+[14.823s] -- Found Ogre Ghadamon (1.9.0)
+[14.907s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[14.956s] -- Looking for OGRE_Paging...
+[15.029s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[15.030s] -- Looking for OGRE_Terrain...
+[15.135s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[15.177s] -- Looking for OGRE_Property...
+[15.226s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[15.227s] -- Looking for OGRE_RTShaderSystem...
+[15.323s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[15.335s] -- Looking for OGRE_Volume...
+[15.356s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[15.359s] -- Looking for OGRE_Overlay...
+[15.407s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[16.402s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.436s] -- Looking for ignition-transport8 -- found version 8.2.1
+[16.437s] -- Searching for dependencies of ignition-transport8
+[16.686s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[16.880s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[16.948s] -- Checking for module 'libzmq >= 4'
+[17.343s] --   Found libzmq , version 4.3.4
+[18.585s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[18.723s] -- Checking for module 'uuid'
+[18.995s] --   Found uuid, version 2.37.2
+[19.281s] -- Found UUID: TRUE  
+[19.299s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[19.302s] -- Searching for dependencies of ignition-msgs5
+[20.145s] -- Looking for ignition-math6 -- found version 6.15.1
+[20.441s] -- Checking for module 'tinyxml2'
+[20.768s] --   Found tinyxml2, version 9.0.0
+[21.449s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[21.528s] -- Looking for ignition-common3 -- found version 3.14.0
+[21.594s] -- Searching for dependencies of ignition-common3
+[21.594s] -- Looking for dlfcn.h - found
+[21.594s] -- Looking for libdl - found
+[21.594s] -- Found DL: TRUE  
+[21.759s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[21.803s] -- Searching for <ignition-common3> component [graphics]
+[21.895s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[21.898s] -- Searching for dependencies of ignition-common3-graphics
+[21.904s] -- Looking for ignition-math6 -- found version 6.15.1
+[21.968s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[21.968s] -- Searching for dependencies of ignition-fuel_tools4
+[22.234s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[22.277s] -- Checking for module 'jsoncpp'
+[22.331s] --   Found jsoncpp, version 1.9.5
+[22.506s] -- Found JSONCPP: TRUE  
+[22.543s] -- Checking for module 'libzip'
+[22.606s] --   Found libzip, version 1.7.3
+[22.894s] -- Found ZIP: TRUE  
+[22.897s] -- Looking for ignition-common3 -- found version 3.14.0
+[22.898s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.900s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[23.182s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[23.232s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[24.381s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.750s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[25.041s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[27.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.849s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[34.295s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[37.204s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[37.244s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[40.970s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[41.836s] -- Found FastRTPS: /opt/ros/humble/include  
+[42.439s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[42.756s] -- Found Threads: TRUE  
+[43.370s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[43.601s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[44.626s] -- Configuring done
+[45.199s] -- Generating done
+[45.296s] -- Build files have been written to: /home/duck/Downloads/robo/build/turtlebot3_gazebo
+[45.341s] Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/turtlebot3_gazebo
+[45.415s] Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/turtlebot3_gazebo -- -j4 -l4
+[45.813s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[117.275s] [ 25%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[121.133s] [ 25%] Built target turtlebot3_drive
+[121.295s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[204.628s] [ 50%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[207.216s] [ 50%] Built target obstacles
+[207.358s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[260.580s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[262.074s] [ 75%] Built target obstacle2
+[262.246s] [ 87%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[324.782s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[326.242s] [100%] Built target obstacle1
+[326.317s] Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/turtlebot3_gazebo -- -j4 -l4
+[326.335s] Invoking command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/turtlebot3_gazebo
+[326.399s] -- Install configuration: ""
+[326.410s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[326.443s] -- Set runtime path of "/home/duck/Downloads/robo/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[326.444s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[326.448s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[326.455s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[326.461s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[326.469s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[326.471s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[326.472s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[326.476s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[326.484s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[326.490s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[326.494s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[326.499s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01
+[326.501s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials
+[326.518s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[326.518s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[326.520s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[326.550s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[326.563s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[326.597s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[326.600s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/meshes
+[326.606s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[326.626s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[326.633s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfE_01/model.config
+[326.638s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01
+[326.642s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials
+[326.646s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[326.652s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[326.703s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[326.747s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[326.757s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[326.794s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[326.835s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[326.842s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/meshes
+[326.852s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[326.875s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[326.881s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_DeskC_01/model.config
+[326.887s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[326.888s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[326.892s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[326.896s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[326.904s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[326.916s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[326.930s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[326.939s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[326.945s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[326.947s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[326.954s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[326.959s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[326.960s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[326.966s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[326.973s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[326.983s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[326.997s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[327.002s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[327.004s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[327.021s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[327.026s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[327.030s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[327.043s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[327.055s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01
+[327.061s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/materials
+[327.064s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[327.071s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[327.081s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[327.085s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/meshes
+[327.089s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[327.095s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[327.101s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_Lamp_01/model.config
+[327.106s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01
+[327.107s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/materials
+[327.112s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[327.116s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[327.128s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[327.136s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[327.140s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[327.147s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[327.150s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[327.158s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[327.158s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[327.160s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[327.173s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[327.176s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[327.185s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[327.187s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[327.200s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[327.200s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[327.203s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01
+[327.206s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/materials
+[327.207s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/materials/textures
+[327.216s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[327.247s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/model.sdf
+[327.254s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/meshes
+[327.263s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[327.263s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[327.267s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_WallB_01/model.config
+[327.275s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[327.283s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[327.295s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[327.297s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[327.299s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01
+[327.304s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials
+[327.308s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[327.315s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[327.331s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[327.373s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[327.380s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[327.381s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[327.389s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[327.389s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[327.392s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01
+[327.399s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials
+[327.407s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[327.415s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[327.456s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[327.465s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[327.467s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/meshes
+[327.478s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[327.482s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[327.493s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_GroundB_01/model.config
+[327.497s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01
+[327.503s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials
+[327.507s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[327.513s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[327.540s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[327.556s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[327.577s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[327.582s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[327.586s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[327.588s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[327.600s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[327.606s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01
+[327.610s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials
+[327.615s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[327.623s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[327.627s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[327.645s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[327.660s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[327.664s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/meshes
+[327.673s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[327.682s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[327.693s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfF_01/model.config
+[327.699s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01
+[327.701s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials
+[327.702s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[327.704s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[327.719s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[327.733s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[327.745s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[327.745s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[327.750s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[327.758s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[327.765s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01
+[327.766s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials
+[327.773s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[327.779s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[327.800s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[327.802s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[327.812s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[327.825s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[327.825s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_ShelfD_01/model.config
+[327.828s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[327.830s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[327.833s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[327.835s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[327.840s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[327.840s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[327.843s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[327.846s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01
+[327.848s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials
+[327.851s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[327.858s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[327.880s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[327.883s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[327.889s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[327.893s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[327.918s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[327.923s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[327.925s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[327.937s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[327.952s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[327.954s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01
+[327.966s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/materials
+[327.966s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[327.973s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[327.974s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[327.981s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/meshes
+[327.981s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[328.009s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[328.009s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/aws_robomaker_warehouse_RoofB_01/model.config
+[328.012s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[328.013s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[328.018s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[328.019s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[328.026s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[328.029s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[328.029s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[328.039s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[328.043s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/warehouse_willow.world
+[328.075s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/damn.world
+[328.081s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[328.084s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[328.085s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[328.095s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[328.099s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/warehouse_old.world
+[328.104s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[328.110s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[328.121s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[328.123s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/warehouse.world
+[328.161s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/final_new.world
+[328.179s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/RL (copy).world
+[328.184s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/final.world
+[328.210s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/RL.world
+[328.221s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/include/
+[328.221s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[328.222s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[328.226s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[328.226s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[328.229s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[328.230s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[328.231s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[328.234s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[328.234s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[328.235s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[328.241s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[328.247s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[328.247s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[328.250s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[328.252s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[328.254s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[328.259s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[328.259s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[328.260s] -- Installing: /home/duck/Downloads/robo/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[328.315s] Invoked command in '/home/duck/Downloads/robo/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/turtlebot3_gazebo

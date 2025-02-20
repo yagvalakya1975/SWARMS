@@ -1,0 +1,44 @@
+[0.277s] Invoking command in '/home/duck/Downloads/robo/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/point_cloud_perception -- -j4 -l4
+[2.675s] [ 33%] Built target voxeling
+[3.616s] [ 66%] Built target clustering
+[3.992s] [100%] Built target planner_seg
+[6.436s] Invoked command in '/home/duck/Downloads/robo/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/point_cloud_perception -- -j4 -l4
+[6.531s] Invoking command in '/home/duck/Downloads/robo/build/point_cloud_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/point_cloud_perception
+[6.695s] -- Install configuration: ""
+[6.695s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/lib/point_cloud_perception/voxeling
+[6.705s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/lib/point_cloud_perception/planner_seg
+[6.713s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/lib/point_cloud_perception/clustering
+[6.760s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch
+[6.779s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab6.launch.py
+[6.824s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab3.launch.py
+[6.824s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/rtab_mapping.launch.py
+[6.824s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab5.launch.py
+[6.825s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab9.launch.py
+[6.826s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab14.launch.py
+[6.826s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab15.launch.py
+[6.826s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab7.launch.py
+[6.826s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab.launch.py
+[6.826s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab1.launch.py
+[6.826s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab10.launch.py
+[6.827s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab12.launch.py
+[6.827s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab13.launch.py
+[6.827s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab8.launch.py
+[6.834s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab11.launch.py
+[6.835s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab2.launch.py
+[6.835s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab4.launch.py
+[6.835s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/ament_index/resource_index/package_run_dependencies/point_cloud_perception
+[6.835s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/ament_index/resource_index/parent_prefix_path/point_cloud_perception
+[6.835s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.sh
+[6.836s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.dsv
+[6.836s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/path.sh
+[6.836s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/path.dsv
+[6.836s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.bash
+[6.836s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.sh
+[6.837s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.zsh
+[6.837s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.dsv
+[6.846s] -- Installing: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.dsv
+[6.852s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/ament_index/resource_index/packages/point_cloud_perception
+[6.858s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig.cmake
+[6.892s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig-version.cmake
+[6.912s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.xml
+[6.974s] Invoked command in '/home/duck/Downloads/robo/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/point_cloud_perception

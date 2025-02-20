@@ -1,0 +1,52 @@
+[1.190s] Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/navigation_tb3 -- -j4 -l4
+[2.477s] [100%] Built target pub_occupancy_grid
+[2.584s] [100%] Built target ament_cmake_python_copy_navigation_tb3
+[3.618s] running egg_info
+[3.618s] writing navigation_tb3.egg-info/PKG-INFO
+[3.620s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[3.628s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[3.656s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[3.660s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[3.880s] [100%] Built target ament_cmake_python_build_navigation_tb3_egg
+[3.951s] Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/navigation_tb3 -- -j4 -l4
+[3.991s] Invoking command in '/home/duck/Downloads/robo/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/navigation_tb3
+[4.028s] -- Install configuration: ""
+[4.043s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[4.053s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/launch
+[4.076s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[4.076s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[4.076s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config
+[4.077s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[4.077s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[4.077s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[4.079s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[4.079s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[4.080s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[4.082s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[4.084s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[4.084s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info
+[4.084s] -- Installing: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[4.084s] -- Installing: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.084s] -- Installing: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[4.089s] -- Installing: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.089s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3
+[4.090s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[4.266s] Listing '/home/duck/Downloads/robo/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[4.268s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[4.268s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[4.274s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[4.276s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[4.278s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[4.278s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[4.281s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[4.282s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[4.291s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[4.291s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[4.292s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[4.292s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[4.292s] -- Installing: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.dsv
+[4.298s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[4.311s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[4.312s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[4.314s] -- Up-to-date: /home/duck/Downloads/robo/install/navigation_tb3/share/navigation_tb3/package.xml
+[4.357s] Invoked command in '/home/duck/Downloads/robo/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/navigation_tb3

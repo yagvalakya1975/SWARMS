@@ -1,0 +1,37 @@
+[0.243s] Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+[1.443s] [ 20%] Built target translation_frame
+[1.833s] [ 40%] Built target frame_chains
+[2.238s] [ 60%] Built target static_dynamic_frame
+[2.551s] [ 80%] Built target transform_order
+[3.040s] [100%] Built target rotation_frame
+[3.240s] Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+[3.288s] Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms
+[3.339s] -- Install configuration: ""
+[3.404s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/lib/transforms/translation_frame
+[3.437s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/lib/transforms/rotation_frame
+[3.455s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/lib/transforms/transform_order
+[3.466s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/lib/transforms/frame_chains
+[3.519s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/lib/transforms/static_dynamic_frame
+[3.522s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/launch
+[3.529s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/launch/rviz.launch.py
+[3.531s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/launch/gazebo.launch.py
+[3.537s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/urdf
+[3.543s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/urdf/diff_drive.urdf
+[3.550s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/config
+[3.567s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/config/urdf_view.rviz
+[3.597s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/ament_index/resource_index/package_run_dependencies/transforms
+[3.600s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/ament_index/resource_index/parent_prefix_path/transforms
+[3.602s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/ament_prefix_path.sh
+[3.603s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/ament_prefix_path.dsv
+[3.604s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/path.sh
+[3.605s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/path.dsv
+[3.608s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.bash
+[3.609s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.sh
+[3.610s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.zsh
+[3.610s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.dsv
+[3.610s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/package.dsv
+[3.622s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/ament_index/resource_index/packages/transforms
+[3.625s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/cmake/transformsConfig.cmake
+[3.626s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/cmake/transformsConfig-version.cmake
+[3.627s] -- Up-to-date: /home/duck/Downloads/robo/install/transforms/share/transforms/package.xml
+[3.647s] Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms

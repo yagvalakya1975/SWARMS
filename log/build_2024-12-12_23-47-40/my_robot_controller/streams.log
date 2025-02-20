@@ -1,0 +1,33 @@
+[4.191s] Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller': PYTHONPATH=/home/duck/Downloads/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/duck/Downloads/robo/build/my_robot_controller/build install --record /home/duck/Downloads/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[4.927s] running egg_info
+[4.933s] writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[4.988s] writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[4.996s] writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[5.010s] writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[5.010s] writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[5.013s] reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.027s] adding license file 'LICENSE'
+[5.044s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.044s] running build
+[5.044s] running build_py
+[5.094s] running install
+[5.104s] running install_lib
+[5.127s] running install_data
+[5.135s] running install_egg_info
+[5.146s] removing '/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[5.146s] Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[5.153s] running install_scripts
+[5.221s] Installing DDPG script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.221s] Installing common_def script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.222s] Installing ddpg script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.230s] Installing draw_circle script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.231s] Installing number_count script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.232s] Installing number_publish script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.232s] Installing pose_publish script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.232s] Installing pose_subscribe script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.233s] Installing q_learning script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.233s] Installing reset_count script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.233s] Installing test_node script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.233s] Installing updated_keras_ddpg script to /home/duck/Downloads/robo/install/my_robot_controller/lib/my_robot_controller
+[5.233s] writing list of installed files to '/home/duck/Downloads/robo/build/my_robot_controller/install.log'
+[5.574s] Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/my_robot_controller' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/duck/Downloads/robo/build/my_robot_controller/build install --record /home/duck/Downloads/robo/build/my_robot_controller/install.log --single-version-externally-managed install_data

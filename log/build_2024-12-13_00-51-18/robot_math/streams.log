@@ -1,0 +1,22 @@
+[2.593s] Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/robot_math': PYTHONPATH=/home/duck/Downloads/robo/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_math build --build-base /home/duck/Downloads/robo/build/robot_math/build install --record /home/duck/Downloads/robo/build/robot_math/install.log --single-version-externally-managed install_data
+[3.590s] running egg_info
+[3.595s] writing ../../../build/robot_math/robot_math.egg-info/PKG-INFO
+[3.596s] writing dependency_links to ../../../build/robot_math/robot_math.egg-info/dependency_links.txt
+[3.598s] writing entry points to ../../../build/robot_math/robot_math.egg-info/entry_points.txt
+[3.600s] writing requirements to ../../../build/robot_math/robot_math.egg-info/requires.txt
+[3.602s] writing top-level names to ../../../build/robot_math/robot_math.egg-info/top_level.txt
+[3.610s] reading manifest file '../../../build/robot_math/robot_math.egg-info/SOURCES.txt'
+[3.612s] writing manifest file '../../../build/robot_math/robot_math.egg-info/SOURCES.txt'
+[3.614s] running build
+[3.614s] running build_py
+[3.616s] running install
+[3.616s] running install_lib
+[3.620s] running install_data
+[3.620s] running install_egg_info
+[3.625s] removing '/home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages/robot_math-0.0.0-py3.10.egg-info' (and everything under it)
+[3.627s] Copying ../../../build/robot_math/robot_math.egg-info to /home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages/robot_math-0.0.0-py3.10.egg-info
+[3.632s] running install_scripts
+[3.705s] Installing circle_motion_node script to /home/duck/Downloads/robo/install/robot_math/lib/robot_math
+[3.706s] Installing go_To_Goal_node script to /home/duck/Downloads/robo/install/robot_math/lib/robot_math
+[3.706s] writing list of installed files to '/home/duck/Downloads/robo/build/robot_math/install.log'
+[3.805s] Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/robot_math' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/robot_math/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/robot_math/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_math build --build-base /home/duck/Downloads/robo/build/robot_math/build install --record /home/duck/Downloads/robo/build/robot_math/install.log --single-version-externally-managed install_data

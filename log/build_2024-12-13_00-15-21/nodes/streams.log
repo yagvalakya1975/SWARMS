@@ -1,0 +1,26 @@
+[1.011s] Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+[2.738s] [ 33%] Built target pub_node
+[2.845s] [ 66%] Built target laser_pub
+[2.995s] [100%] Built target sub_node
+[3.087s] Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+[3.234s] Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes
+[3.253s] -- Install configuration: ""
+[3.266s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/lib/nodes/pub_node
+[3.274s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/lib/nodes/sub_node
+[3.318s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/lib/nodes/laser_pub
+[3.319s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[3.327s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[3.328s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[3.330s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[3.331s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/path.sh
+[3.333s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/path.dsv
+[3.339s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.bash
+[3.343s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.sh
+[3.343s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.zsh
+[3.344s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.dsv
+[3.344s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/package.dsv
+[3.347s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/ament_index/resource_index/packages/nodes
+[3.363s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[3.363s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[3.363s] -- Up-to-date: /home/duck/Downloads/robo/install/nodes/share/nodes/package.xml
+[3.406s] Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck/Downloads/robo/install/robot_math:/home/duck/Downloads/robo/install/pc:/home/duck/Downloads/robo/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes

@@ -1,0 +1,81 @@
+[5.989s] Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/nodes -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/nodes
+[11.673s] -- The C compiler identification is GNU 11.4.0
+[15.337s] -- The CXX compiler identification is GNU 11.4.0
+[15.542s] -- Detecting C compiler ABI info
+[16.930s] -- Detecting C compiler ABI info - done
+[16.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.953s] -- Detecting C compile features
+[16.958s] -- Detecting C compile features - done
+[17.000s] -- Detecting CXX compiler ABI info
+[19.100s] -- Detecting CXX compiler ABI info - done
+[19.698s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[19.700s] -- Detecting CXX compile features
+[19.725s] -- Detecting CXX compile features - done
+[19.726s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.725s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[24.625s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[25.892s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[26.009s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[26.282s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[26.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.543s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[28.645s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[30.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[31.261s] -- Found FastRTPS: /opt/ros/humble/include  
+[31.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.999s] -- Looking for pthread.h
+[33.340s] -- Looking for pthread.h - found
+[33.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[34.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[35.037s] -- Found Threads: TRUE  
+[36.493s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[37.833s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[39.329s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[39.329s] -- Configured cppcheck include dirs: 
+[39.330s] -- Configured cppcheck exclude dirs and/or files: 
+[39.392s] -- Added test 'flake8' to check Python code syntax and style conventions
+[39.393s] -- Added test 'lint_cmake' to check CMake code style
+[39.394s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[39.451s] -- Added test 'uncrustify' to check C / C++ code style
+[39.451s] -- Configured uncrustify additional arguments: 
+[39.499s] -- Added test 'xmllint' to check XML markup files
+[39.504s] -- Configuring done
+[39.910s] -- Generating done
+[40.022s] -- Build files have been written to: /home/duck/Downloads/robo/build/nodes
+[40.122s] Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/nodes -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/nodes
+[40.184s] Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+[41.257s] [ 16%] [32mBuilding CXX object CMakeFiles/pub_node.dir/src/publisher.cpp.o[0m
+[106.905s] [ 33%] [32m[1mLinking CXX executable pub_node[0m
+[110.896s] [ 33%] Built target pub_node
+[111.408s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_pub.dir/src/laser_publisher.cpp.o[0m
+[150.024s] [ 66%] [32m[1mLinking CXX executable laser_pub[0m
+[152.716s] [ 66%] Built target laser_pub
+[153.039s] [ 83%] [32mBuilding CXX object CMakeFiles/sub_node.dir/src/subscriber.cpp.o[0m
+[211.580s] [100%] [32m[1mLinking CXX executable sub_node[0m
+[213.637s] [100%] Built target sub_node
+[214.782s] Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/nodes -- -j4 -l4
+[214.794s] Invoking command in '/home/duck/Downloads/robo/build/nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes
+[214.883s] -- Install configuration: ""
+[214.885s] -- Installing: /home/duck/Downloads/robo/install/nodes/lib/nodes/pub_node
+[215.028s] -- Set runtime path of "/home/duck/Downloads/robo/install/nodes/lib/nodes/pub_node" to ""
+[215.028s] -- Installing: /home/duck/Downloads/robo/install/nodes/lib/nodes/sub_node
+[215.033s] -- Set runtime path of "/home/duck/Downloads/robo/install/nodes/lib/nodes/sub_node" to ""
+[215.034s] -- Installing: /home/duck/Downloads/robo/install/nodes/lib/nodes/laser_pub
+[215.072s] -- Set runtime path of "/home/duck/Downloads/robo/install/nodes/lib/nodes/laser_pub" to ""
+[215.093s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[215.098s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[215.100s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[215.104s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[215.106s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/path.sh
+[215.124s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/environment/path.dsv
+[215.128s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.bash
+[215.130s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.sh
+[215.216s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.zsh
+[215.218s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/local_setup.dsv
+[215.229s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/package.dsv
+[215.233s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/ament_index/resource_index/packages/nodes
+[215.234s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[215.235s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[215.235s] -- Installing: /home/duck/Downloads/robo/install/nodes/share/nodes/package.xml
+[215.275s] Invoked command in '/home/duck/Downloads/robo/build/nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/nodes

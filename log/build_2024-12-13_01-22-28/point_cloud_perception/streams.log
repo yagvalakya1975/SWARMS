@@ -1,0 +1,44 @@
+[0.036s] Invoking command in '/home/duck/Downloads/robo/build/point_cloud_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/point_cloud_perception -- -j4 -l4
+[0.805s] [ 33%] Built target planner_seg
+[0.805s] [ 66%] Built target clustering
+[0.839s] [100%] Built target voxeling
+[2.221s] Invoked command in '/home/duck/Downloads/robo/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/point_cloud_perception -- -j4 -l4
+[2.294s] Invoking command in '/home/duck/Downloads/robo/build/point_cloud_perception': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/point_cloud_perception
+[2.348s] -- Install configuration: ""
+[2.378s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/lib/point_cloud_perception/voxeling
+[2.380s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/lib/point_cloud_perception/planner_seg
+[2.380s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/lib/point_cloud_perception/clustering
+[2.380s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch
+[2.380s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab6.launch.py
+[2.380s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab3.launch.py
+[2.380s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/rtab_mapping.launch.py
+[2.381s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab5.launch.py
+[2.381s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab9.launch.py
+[2.381s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab14.launch.py
+[2.381s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab15.launch.py
+[2.381s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab7.launch.py
+[2.381s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab1.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab10.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab12.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab13.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab8.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab11.launch.py
+[2.382s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab2.launch.py
+[2.383s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception//launch/3d_depth_mapping_rtab4.launch.py
+[2.383s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/ament_index/resource_index/package_run_dependencies/point_cloud_perception
+[2.383s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/ament_index/resource_index/parent_prefix_path/point_cloud_perception
+[2.395s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.sh
+[2.395s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/ament_prefix_path.dsv
+[2.395s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/path.sh
+[2.396s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/environment/path.dsv
+[2.396s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.bash
+[2.396s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.sh
+[2.396s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.zsh
+[2.396s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/local_setup.dsv
+[2.397s] -- Installing: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.dsv
+[2.397s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/ament_index/resource_index/packages/point_cloud_perception
+[2.397s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig.cmake
+[2.397s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/cmake/point_cloud_perceptionConfig-version.cmake
+[2.397s] -- Up-to-date: /home/duck/Downloads/robo/install/point_cloud_perception/share/point_cloud_perception/package.xml
+[2.733s] Invoked command in '/home/duck/Downloads/robo/build/point_cloud_perception' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/point_cloud_perception

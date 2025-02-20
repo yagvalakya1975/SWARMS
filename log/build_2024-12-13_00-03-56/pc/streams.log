@@ -1,0 +1,21 @@
+[6.019s] Invoking command in '/home/duck/Downloads/robo/src/ros2_learners/pc': PYTHONPATH=/home/duck/Downloads/robo/build/pc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pc build --build-base /home/duck/Downloads/robo/build/pc/build install --record /home/duck/Downloads/robo/build/pc/install.log --single-version-externally-managed install_data
+[7.408s] running egg_info
+[7.408s] writing ../../../build/pc/pc.egg-info/PKG-INFO
+[7.447s] writing dependency_links to ../../../build/pc/pc.egg-info/dependency_links.txt
+[7.451s] writing entry points to ../../../build/pc/pc.egg-info/entry_points.txt
+[7.452s] writing requirements to ../../../build/pc/pc.egg-info/requires.txt
+[7.475s] writing top-level names to ../../../build/pc/pc.egg-info/top_level.txt
+[7.477s] reading manifest file '../../../build/pc/pc.egg-info/SOURCES.txt'
+[7.484s] writing manifest file '../../../build/pc/pc.egg-info/SOURCES.txt'
+[7.484s] running build
+[7.485s] running build_py
+[7.495s] running install
+[7.496s] running install_lib
+[7.504s] running install_data
+[7.508s] running install_egg_info
+[7.518s] removing '/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc-0.0.0-py3.10.egg-info' (and everything under it)
+[7.518s] Copying ../../../build/pc/pc.egg-info to /home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages/pc-0.0.0-py3.10.egg-info
+[7.563s] running install_scripts
+[7.742s] Installing map_launch script to /home/duck/Downloads/robo/install/pc/lib/pc
+[7.765s] writing list of installed files to '/home/duck/Downloads/robo/build/pc/install.log'
+[7.919s] Invoked command in '/home/duck/Downloads/robo/src/ros2_learners/pc' returned '0': PYTHONPATH=/home/duck/Downloads/robo/build/pc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck/Downloads/robo/install/pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pc build --build-base /home/duck/Downloads/robo/build/pc/build install --record /home/duck/Downloads/robo/build/pc/install.log --single-version-externally-managed install_data

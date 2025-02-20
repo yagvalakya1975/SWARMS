@@ -1,0 +1,98 @@
+[0.095s] Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/transforms -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/transforms
+[1.162s] -- The C compiler identification is GNU 11.4.0
+[2.479s] -- The CXX compiler identification is GNU 11.4.0
+[2.599s] -- Detecting C compiler ABI info
+[4.362s] -- Detecting C compiler ABI info - done
+[4.562s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.597s] -- Detecting C compile features
+[4.630s] -- Detecting C compile features - done
+[4.716s] -- Detecting CXX compiler ABI info
+[6.071s] -- Detecting CXX compiler ABI info - done
+[6.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.232s] -- Detecting CXX compile features
+[6.246s] -- Detecting CXX compile features - done
+[6.298s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.577s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.667s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[10.207s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.233s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.350s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.874s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.874s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.461s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.803s] -- Looking for pthread.h
+[15.464s] -- Looking for pthread.h - found
+[15.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.790s] -- Found Threads: TRUE  
+[17.705s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[20.729s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.978s] -- Configured cppcheck include dirs: 
+[21.978s] -- Configured cppcheck exclude dirs and/or files: 
+[21.978s] -- Added test 'flake8' to check Python code syntax and style conventions
+[21.979s] -- Added test 'lint_cmake' to check CMake code style
+[21.979s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[21.979s] -- Added test 'uncrustify' to check C / C++ code style
+[21.979s] -- Configured uncrustify additional arguments: 
+[21.980s] -- Added test 'xmllint' to check XML markup files
+[22.101s] -- Configuring done
+[22.627s] -- Generating done
+[22.962s] -- Build files have been written to: /home/duck/Downloads/robo/build/transforms
+[22.992s] Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duck/Downloads/robo/src/ros2_learners/transforms -DCMAKE_INSTALL_PREFIX=/home/duck/Downloads/robo/install/transforms
+[23.054s] Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+[23.416s] [ 10%] [32mBuilding CXX object CMakeFiles/translation_frame.dir/src/translation_frame.cpp.o[0m
+[72.879s] [ 20%] [32m[1mLinking CXX executable translation_frame[0m
+[77.724s] [ 20%] Built target translation_frame
+[78.586s] [ 30%] [32mBuilding CXX object CMakeFiles/frame_chains.dir/src/frame_chains.cpp.o[0m
+[113.337s] [ 40%] [32m[1mLinking CXX executable frame_chains[0m
+[115.464s] [ 40%] Built target frame_chains
+[115.896s] [ 50%] [32mBuilding CXX object CMakeFiles/static_dynamic_frame.dir/src/static_dynamic_frame.cpp.o[0m
+[138.516s] [ 60%] [32m[1mLinking CXX executable static_dynamic_frame[0m
+[140.222s] [ 60%] Built target static_dynamic_frame
+[140.451s] [ 70%] [32mBuilding CXX object CMakeFiles/transform_order.dir/src/transform_order.cpp.o[0m
+[165.640s] [ 80%] [32m[1mLinking CXX executable transform_order[0m
+[167.443s] [ 80%] Built target transform_order
+[167.713s] [ 90%] [32mBuilding CXX object CMakeFiles/rotation_frame.dir/src/rotation_frame.cpp.o[0m
+[194.728s] [100%] [32m[1mLinking CXX executable rotation_frame[0m
+[196.190s] [100%] Built target rotation_frame
+[197.057s] Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duck/Downloads/robo/build/transforms -- -j4 -l4
+[197.132s] Invoking command in '/home/duck/Downloads/robo/build/transforms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms
+[197.198s] -- Install configuration: ""
+[197.198s] -- Installing: /home/duck/Downloads/robo/install/transforms/lib/transforms/translation_frame
+[197.276s] -- Set runtime path of "/home/duck/Downloads/robo/install/transforms/lib/transforms/translation_frame" to ""
+[197.276s] -- Installing: /home/duck/Downloads/robo/install/transforms/lib/transforms/rotation_frame
+[197.328s] -- Set runtime path of "/home/duck/Downloads/robo/install/transforms/lib/transforms/rotation_frame" to ""
+[197.418s] -- Installing: /home/duck/Downloads/robo/install/transforms/lib/transforms/transform_order
+[197.419s] -- Set runtime path of "/home/duck/Downloads/robo/install/transforms/lib/transforms/transform_order" to ""
+[197.429s] -- Installing: /home/duck/Downloads/robo/install/transforms/lib/transforms/frame_chains
+[197.464s] -- Set runtime path of "/home/duck/Downloads/robo/install/transforms/lib/transforms/frame_chains" to ""
+[197.465s] -- Installing: /home/duck/Downloads/robo/install/transforms/lib/transforms/static_dynamic_frame
+[197.486s] -- Set runtime path of "/home/duck/Downloads/robo/install/transforms/lib/transforms/static_dynamic_frame" to ""
+[197.516s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/launch
+[197.538s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/launch/rviz.launch.py
+[197.574s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/launch/gazebo.launch.py
+[197.586s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/urdf
+[197.587s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/urdf/diff_drive.urdf
+[197.601s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/config
+[197.625s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/config/urdf_view.rviz
+[197.650s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/ament_index/resource_index/package_run_dependencies/transforms
+[197.664s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/ament_index/resource_index/parent_prefix_path/transforms
+[197.685s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/ament_prefix_path.sh
+[197.691s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/ament_prefix_path.dsv
+[197.699s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/path.sh
+[197.699s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/environment/path.dsv
+[197.705s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.bash
+[197.709s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.sh
+[197.713s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.zsh
+[197.720s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/local_setup.dsv
+[197.724s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/package.dsv
+[197.744s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/ament_index/resource_index/packages/transforms
+[197.777s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/cmake/transformsConfig.cmake
+[197.778s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/cmake/transformsConfig-version.cmake
+[197.787s] -- Installing: /home/duck/Downloads/robo/install/transforms/share/transforms/package.xml
+[197.822s] Invoked command in '/home/duck/Downloads/robo/build/transforms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duck/Downloads/robo/build/transforms
